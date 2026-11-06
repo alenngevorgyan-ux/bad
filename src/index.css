@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Fredoka', cursive, system-ui, sans-serif;
+  }
+}
+
+.font-doodle {
+  font-family: 'Patrick Hand', cursive, sans-serif;
+}
+
+.font-marker {
+  font-family: 'Permanent Marker', cursive, sans-serif;
+}
+
+/* Doodle button & card borders */
+.doodle-border {
+  border: 3.5px solid #1e2433;
+  box-shadow: 4px 4px 0px #0b0e17;
+}
+
+.doodle-btn {
+  border: 3px solid #141b2d;
+  box-shadow: 0 4px 0 #0d121f;
+  transition: all 0.1s ease-in-out;
+}
+
+.doodle-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #0d121f;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Doodle Basketball 5v5",
+  "description": "Fast-paced arcade 5v5 doodle basketball with no fouls, brawling, ankle-breaking crossovers, timing jump shots, and unique flashy dunks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
